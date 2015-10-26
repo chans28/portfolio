@@ -1,0 +1,267 @@
+/*General Main Body Styles*/
+
+body,
+html {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	color: #747708;
+	overflow-x: hidden;
+}
+
+main {
+	margin-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+footer,
+section,
+article,
+div {
+	box-sizing: border-box;
+}
+
+p {
+	font-size: 12px;
+}
+
+img {
+	width: 100%;
+}
+
+/*Header Specific Styles*/
+
+.header-container {
+	width: 100%;
+	max-width: 960px;
+	display:table;
+}
+
+.header-logo {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.header-title {
+	display:table-cell;
+	font-size: 1em;
+}
+
+.header-rule {
+	width: 250px;
+	text-align: right;
+	margin-right: 0;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-color: rgba(93, 171, 63, 0.37);
+}
+
+hr {
+	background-color: #eee;
+	border: 0 none;
+	height: 2px;
+}
+
+/*Main section - Latest updates / Projects*/
+
+.update-container {
+	width: 100%;
+}
+
+.bg-image {
+	background-image: url(http://rack.3.mshcdn.com/media/ZgkyMDEzLzEwLzI4L2U2L0FuTmkuMDJhZWUuanBnCnAJdGh1bWIJODUweDg1MD4KZQlqcGc/32d82afe/05c/An-Ni.jpg);
+	background-size: 100% 100%;
+	padding-top: 10em;
+}
+
+.gradient-black {
+	padding: 10px 25px;
+	background-color: rgba(0,0,0,.3);
+	color: white;
+}
+
+.footer-source {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+/*Featured Work*/
+
+.header-featured {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.hr-featured {
+	width: 160px;
+	text-align: left;
+	margin-left: 0;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-color: rgba(93, 171, 63, 0.37);
+}
+
+.sect-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+#sect-container1 img {
+	max-width: 450px;
+}
+
+#sect-container2 img {
+	max-width: 350px;
+}
+
+.box {
+	width: 100%;
+}
+
+/* Text Styles and Alignments*/
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #acc;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	color: #BCBBBB;
+	font-weight: 100;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+/*Responsive Styles*/
+
+@media screen and (min-width: 500px) {
+
+	#sect-container1 {
+		width: 58%;
+		padding-right: 5px;
+	}
+
+	#sect-container1 h4 {
+		padding-top: 0.75em;
+	}
+
+	#sect1b img {
+		padding-top: 1em;
+	}
+
+	#sect-container2 {
+		width: 42%;
+		padding-left: 5px;
+	}
+
+	#sect-container2 h4 {
+		padding-top: 0.6em;
+	}
+
+	#sect2b img, #sect2c img {
+		padding-top: 0.3em;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+	#sect-container1 {
+		width: 100%;
+		padding: 0;
+	}
+
+	.sect1 {
+		width: 50%;
+	}
+
+	#sect1a img,
+	#sect1a h4 {
+		margin-right: 0.25em;
+	}
+
+	#sect1b img,
+	#sect1b h4 {
+		padding-top: 0;
+		margin-left: 0.25em;
+	}
+
+	#sect-container2 {
+		width: 100%;
+		padding: 0;
+	}
+
+	.sect2 {
+		width: 33.3%;
+	}
+
+	#sect2b img,
+	#sect2c img {
+		padding-top: 0;
+	}
+
+	#sect2a img,
+	#sect2a h4 {
+		margin-right: 0.4em;
+	}
+
+	#sect2b img,
+	#sect2b h4 {
+		margin-right: 0.2em;
+		margin-left: 0.2em;
+	}
+
+	#sect2c img,
+	#sect2c h4 {
+		margin-left: 0.4em;
+	}
+}
+
+@media screen and (min-width: 960px) {
+
+	body {
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

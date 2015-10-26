@@ -1,0 +1,51 @@
+
+.header-container h2 {
+	width: 50%;
+	border: 5px solid rgb(255, 172, 69);
+	border-radius: 50%;
+	color: rgb(38, 206, 201);
+	text-align: center;
+	font-size: 4em;
+}
+
+
+nav {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	margin: 1% 0% 3% 0%;
+	background-color: rgb(195, 224, 184);
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	padding: 1% 2%;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+nav a:hover {
+	background-color: white;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+nav a.active:link,
+nav a.active:visited {
+	background-color: rgba(255, 162, 47, 0.89);
+	font-variant: small-caps;
+}
+
+#home-align {
+	float: left;
+}
+
+#contact-align {
+	float: right;
+}
+
+*/
